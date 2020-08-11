@@ -1,0 +1,42 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.HomeGrid {
+  height: 100vh;
+}
+
+.QueryFormItem {
+  width: 45%;
+}
+
+.CapButton {
+  background-color: transparent; /* Green */
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  cursor: help;
+
+  transition-duration: 0.2s;
+}
+
+.CapButton:hover {
+  background-color: black;
+  border: 2px solid transparent;
+  color: white;
+}
+
+.HomeFooter {
+  background-color: #ffff66;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5;
+}
